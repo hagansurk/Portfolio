@@ -47,7 +47,9 @@ i{
     color: blue;
     font-size: 100px;
 }
-
+footer {
+    background-color: white;
+}
 .myButton {
 	background-color:#f0c911;
 	-moz-border-radius:9px;
@@ -487,6 +489,7 @@ blockquote.twitter-tweet a:focus {
         align-items: baseline;
         padding: 10px;
         text-align: center;
+
     }
     blockquote.twitter-tweet {
         display: inline-block;
