@@ -19,7 +19,6 @@
 	<nav>
 		<ul>
 			<li><a href="index.html">Home Page</a></li>
-			<li><a href="projects.html">Prototype and Other Projects</a></li>
 			<li><a class = "active" href="art.html">Old Artwork</a></li>
 			<li><a href="highlight.html">Play-by-play and Color Highlights</a></li>
 			<li><a href="documents.html">Resume and Contact</a></li>
@@ -29,8 +28,9 @@
 
 	<div class="container3">
 		<h2>My Art</h2>
+		<a class="skip-main" href="#main">Skip to main content</a>
 		<div class="item3">
-			<div class="itemi">
+			<div class="itemi" id="main" tabindex="-1">
 				<a href="images/HallPic.png" data-lightbox="image" data-title = "Hallway" class="mix art"><img src = "images/HallPic.png" alt = "The hallway of my old school"/></a>
 				<h3>The Hallway</h3>
 				<p>I was very interested in architecture at the time I made this.  This is a hallway in my highschool and I made it using shaprie.  Using different desgins, such as dots and lines, I was able to add texture and depth to create a sense of what features the hallway had.</p>
@@ -53,12 +53,7 @@
 		</div>
 	</div>
 	<script src="lightbox2-master/dist/js/lightbox.js"></script>
-	<script src="script/mixitup.min.js"></script>
-        <script>
-            var containerEl = document.querySelector('.container');
-
-            var mixer = mixitup(containerEl);
-        </script>
+	
 </body>
 <footer>
 		<p>Thanks for Visiting!</p>

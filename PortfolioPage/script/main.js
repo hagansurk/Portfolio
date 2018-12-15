@@ -1,6 +1,6 @@
 function validateForm() {
     var textin = document.getElementById('textar').value;
-    var firstlast = document.getElementById('name').value;
+    var firstlast = document.getElementById('nam').value;
     var names = twonames(firstlast);
     if (!names) {
         return false;
